@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Local AI packaged like an application instead of a science project.</strong>
+  <strong>Local AI packaged like an app. Download, double-click, chat. </strong>
 </p>
 
 <p align="center">
@@ -21,14 +21,7 @@
 Instead of installing a model manager, choosing a quantization, configuring llama.cpp, tuning inference flags, setting up an API, and figuring out what works on your hardware, each ThumbLLM release packages a specific **known-good configuration**.
 
 ```text
-Model
-+ Quantization
-+ Runtime
-+ Hardware target
-+ Tested inference recipe
-+ Desktop chat
-+ Local API
-= ThumbLLM
+Model → Quantization → Runtime → Hardware target → Tested inference recipe → Desktop chat → Local API = ThumbLLM
 ```
 
 > **Download it. Launch it. Run the model locally.**
@@ -39,13 +32,12 @@ If the required model is not already present, ThumbLLM can download the expected
 
 ## Why ThumbLLM?
 
-Running a local LLM is easier than it used to be.
-
-Running one **well** can still require understanding:
+Running a local LLM is easier than it used to be but running one **well** can still require understanding of the following things:
 
 ```text
 GGUF quantization
 llama.cpp versions
+llama.cpp flags
 CPU threads
 GPU offload
 CUDA / ROCm / Vulkan / MLX
@@ -75,11 +67,11 @@ ThumbLLM gives you a model that has already been configured for a specific job a
 
 # Two Interfaces. One Local Model.
 
-Every ThumbLLM build is designed to make the same model available to both **people** and **software**.
+Every ThumbLLM build is designed to make the same model available to both **people** and **software/agents/harnesses**.
 
 ## 💬 Built-In Desktop Chat
 
-Launch ThumbLLM and interact with the model directly.
+Launch (doubleclick) ThumbLLM and interact with the model directly.
 
 Depending on the build, the interface can provide:
 
