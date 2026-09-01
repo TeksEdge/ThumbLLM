@@ -1,3 +1,17 @@
+<p align="center">
+  <img src="assets/logo/thumbllm-logo-transparent.png" alt="ThumbLLM logo" width="220">
+</p>
+
+<h1 align="center">ThumbLLM</h1>
+
+<p align="center">
+  <strong>Local AI packaged like an application instead of a science project.</strong>
+</p>
+
+<p align="center">
+  One model. One quant. One runtime. One optimized recipe.
+</p>
+
 # ThumbLLM
 
 **ThumbLLM packages open-weight language models as portable, preconfigured local AI applications.**
