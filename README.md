@@ -2,14 +2,16 @@
   <img src="assets/logo/thumbllm-logo-transparent.png" alt="ThumbLLM logo" width="220">
 </p>
 
-<h1 align="center">     </h1>
-
 <p align="center">
   <strong>Local AI packaged like an application instead of a science project.</strong>
 </p>
 
 <p align="center">
-  One model. One quant. One runtime. One optimized recipe.
+  One model. One quant. One runtime. One optimized recipe. Simple.
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/thumbllm-chat-window.png" alt="ThumbLLM desktop chat interface" width="900">
 </p>
 
 # ThumbLLM
