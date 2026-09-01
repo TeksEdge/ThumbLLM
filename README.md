@@ -65,13 +65,13 @@ ThumbLLM gives you a model that has already been configured for a specific job a
 
 ---
 
-# Two Interfaces. One Local Model.
+#  One Local Model. Two Interfaces.
 
 Every ThumbLLM build is designed to make the same model available to both **people** and **software/agents/harnesses**.
 
 ## 💬 Built-In Desktop Chat
 
-Launch (doubleclick) ThumbLLM and interact with the model directly.
+Launch (double-click) ThumbLLM and interact with the model directly.
 
 Depending on the build, the interface can provide:
 
@@ -115,7 +115,40 @@ The chat makes ThumbLLM useful to a person.
 
 ---
 
-# Local Model Fleets
+# Use Case: Portable and Offline
+
+The **Thumb** in ThumbLLM is intentional.
+
+A ThumbLLM executable, its runtime, and its model can potentially travel together on removable storage.
+
+```text
+USB Drive
+│
+├── ThumbLLM.exe
+├── model.gguf
+└── runtime/
+```
+
+Plug the drive into a compatible computer, launch ThumbLLM, and run the model.
+
+Once the required model is present, ThumbLLM does not need a cloud inference provider.
+
+That makes it useful on:
+
+* laptops and workstations
+* airplanes and remote sites
+* secure or restricted networks
+* field systems and laboratories
+* machines with unreliable internet access
+* offline or air-gapped environments
+
+The goal is not merely to make the **model weights** portable.
+
+It is to make the **working inference environment** portable.
+
+---
+
+# Use Case: Local Model Fleets
 
 Multiple ThumbLLM instances can run simultaneously if enough RAM or VRAM is available.
 
@@ -146,39 +179,6 @@ Reasoning model + extraction model
 ```
 
 ThumbLLM turns individual models into reusable local AI services.
-
----
-
-# Portable and Offline
-
-The **Thumb** in ThumbLLM is intentional.
-
-A ThumbLLM executable, its runtime, and its model can potentially travel together on removable storage.
-
-```text
-USB Drive
-│
-├── ThumbLLM.exe
-├── model.gguf
-└── runtime/
-```
-
-Plug the drive into a compatible computer, launch ThumbLLM, and run the model.
-
-Once the required model is present, ThumbLLM does not need a cloud inference provider.
-
-That makes it useful on:
-
-* laptops and workstations
-* airplanes and remote sites
-* secure or restricted networks
-* field systems and laboratories
-* machines with unreliable internet access
-* offline or air-gapped environments
-
-The goal is not merely to make the **model weights** portable.
-
-It is to make the **working inference environment** portable.
 
 ---
 
