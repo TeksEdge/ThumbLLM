@@ -2,7 +2,7 @@
   <img src="assets/logo/thumbllm-logo-transparent.png" alt="ThumbLLM logo" width="220">
 </p>
 
-<h1 align="center">ThumbLLM</h1>
+<h1 align="center">     </h1>
 
 <p align="center">
   <strong>Local AI packaged like an application instead of a science project.</strong>
