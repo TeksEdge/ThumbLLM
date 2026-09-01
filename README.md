@@ -36,7 +36,7 @@ If the required GGUF model is not already present, ThumbLLM can download and ver
 
 ---
 
-## Current Release
+## Releases
 
 ### Windows
 * Ornith-1.5-9B-OBLITERATED link to download asseet
@@ -101,21 +101,13 @@ ThumbLLM takes an simple approach. **Test one configuration, find what works, an
 
 # Local by Design
 
-### 🔒 Private
+### 🔒 Private ➜ Prompts, source code, documents, notes, and other inputs do not need to be sent to a remote inference provider.
 
-Prompts, source code, documents, notes, and other inputs do not need to be sent to a remote inference provider.
+### 📴 Offline ➜ Once the model is downloaded, inference can run without a cloud AI connection.
 
-### 📴 Offline
+### 💰 No Token Meter ➜ Local inference does not create a per-token cloud API charge.
 
-Once the model is downloaded, inference can run without a cloud AI connection.
-
-### 💰 No Token Meter
-
-Local inference does not create a per-token cloud API charge.
-
-### 🎛️ Controlled
-
-The model, quantization, runtime, and inference configuration are known and preserved.
+### 🎛️ Controlled ➜ The model, quantization, runtime, and inference configuration are known and preserved.
 
 ---
 
