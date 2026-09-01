@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/thumbllm-chat-window.png" alt="ThumbLLM desktop chat interface" width="900">
+  <img src="assets/screenshots/thumbllm-chat-window.png" alt="ThumbLLM desktop chat interface" width="600">
 </p>
 
 # ThumbLLM
