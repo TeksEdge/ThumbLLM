@@ -13,7 +13,11 @@
 <p align="center">
   <img src="assets/screenshots/thumbllm-chat-window.png" alt="ThumbLLM desktop chat interface" width="600">
 </p>
-
+<p align="center">
+  <a href="https://github.com/TeksEdge/ThumbLLM/releases/tag/Release-1-Ornith-1.5-9B-CPU">
+    <strong>⬇️ Download latest ThumbLLM for Windows</strong>
+  </a>
+</p>
 # ThumbLLM
 
 **ThumbLLM turns an open-weight language model into a portable, preconfigured local AI application.**
@@ -38,8 +42,11 @@ If the required GGUF model is not already present, ThumbLLM can download and ver
 
 ## Releases
 
-### Windows
-* Ornith-1.5-9B-OBLITERATED link to download asseet
+| Edition | Model | Quantization | Backend | Runtime | Platform | GPU Required | Download | Recipe |
+|---|---|---|---|---|---|---|---|---|
+| ThumbLLM 0.1.0 — Ornith 1.5 9B CPU Edition | OBLITERATUS/Ornith-1.5-9B-OBLITERATED | Q4_K_M | CPU | llama.cpp b10603 | Windows x64 | No | [Download](https://github.com/TeksEdge/ThumbLLM/releases/tag/Release-1-Ornith-1.5-9B-CPU) | [View Recipe](recipes/Ornith-1.5-9B-OBLITERATED-Q4_K_M-CPU-Win-x64/README.md) |
+
+> **Windows SmartScreen:** This early ThumbLLM release is currently unsigned, so Windows may display **"Windows protected your PC"** and **"Unknown publisher."** Download ThumbLLM only from this official GitHub repository and verify the supplied SHA-256 checksum before selecting **Run anyway**.
 
 ---
 
