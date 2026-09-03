@@ -1,4 +1,4 @@
-# ThumbLLM Recipe: Qwen3.5-4B CPU Edition
+# ThumbLLM Recipe: Qwen3.5-4B-MTP CPU Edition
 
 ## Model
 
