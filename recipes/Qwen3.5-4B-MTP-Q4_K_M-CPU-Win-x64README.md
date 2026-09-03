@@ -19,7 +19,7 @@
 - **ThumbLLM version:** 0.1.0
 - **Edition:** Qwen3.5-4B CPU Edition
 - **Release / revision date:** 2026-08-29
-- **Executable:** ThumbLLM.exe
+- **Executable:** ThumbLLM-Qwen3.5-4B-MTP-Q4_K_M-CPU-Win-x64-0.1.0.exe
 - **SHA-256:** FC1446F802A98869746FC24EF7B5E88561336399A0E8EEF01C0A11508427739D
 
 The date above is the `APP_REVISION` value embedded in this ThumbLLM build.
@@ -106,7 +106,7 @@ The model weights are **downloaded separately**.
 
 The GGUF is not bundled with the ThumbLLM executable.
 
-When running as a compiled executable, ThumbLLM stores the model beside `ThumbLLM.exe`.
+When running as a compiled executable, ThumbLLM stores the model beside `ThumbLLM-Qwen3.5-4B-MTP-Q4_K_M-CPU-Win-x64-0.1.0.exe`.
 
 During download, ThumbLLM uses:
 
@@ -750,8 +750,8 @@ The downloader performs an automatic free-space check when the remote model size
 ## Files Included With This Release
 
 ```text
-ThumbLLM.exe
-ThumbLLM-Qwen3.5-4B-Q4_K_M-CPU-Win-x64-0.1.0.sha256
+ThumbLLM-Qwen3.5-4B-MTP-Q4_K_M-CPU-Win-x64-0.1.0.exe
+ThumbLLM-Qwen3.5-4B-MTP-Q4_K_M-CPU-Win-x64-0.1.0.sha256
 ```
 
 Executable SHA-256:
@@ -763,7 +763,7 @@ FC1446F802A98869746FC24EF7B5E88561336399A0E8EEF01C0A11508427739D
 The checksum file identifies:
 
 ```text
-FC1446F802A98869746FC24EF7B5E88561336399A0E8EEF01C0A11508427739D  ThumbLLM.exe
+FC1446F802A98869746FC24EF7B5E88561336399A0E8EEF01C0A11508427739D  ThumbLLM-Qwen3.5-4B-MTP-Q4_K_M-CPU-Win-x64-0.1.0.exe
 ```
 
 The model GGUF is **not included** with the ThumbLLM executable.
@@ -896,7 +896,7 @@ Windows x86_64
 
 ```text
 Executable:
-ThumbLLM.exe
+ThumbLLM-Qwen3.5-4B-MTP-Q4_K_M-CPU-Win-x64-0.1.0.exe
 
 ThumbLLM Version:
 0.1.0
