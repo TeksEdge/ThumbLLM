@@ -13,11 +13,13 @@
 <p align="center">
   <img src="assets/screenshots/thumbllm-chat-window.png" alt="ThumbLLM desktop chat interface" width="600">
 </p>
+
 <p align="center">
-  <a href="https://github.com/TeksEdge/ThumbLLM/releases/tag/Release-1-Ornith-1.5-9B-CPU">
-    <strong>⬇️ Download latest ThumbLLM for Windows</strong>
+  <a href="https://github.com/TeksEdge/ThumbLLM/releases">
+    <strong>⬇️ View ThumbLLM Releases for Windows</strong>
   </a>
 </p>
+
 # ThumbLLM
 
 **ThumbLLM turns an open-weight language model into a portable, preconfigured local AI application.**
@@ -42,11 +44,12 @@ If the required GGUF model is not already present, ThumbLLM can download and ver
 
 ## Releases
 
-| Edition | Model | Quantization | Backend | Runtime | Platform | GPU Required | Download | Recipe |
-|---|---|---|---|---|---|---|---|---|
-| ThumbLLM 0.1.0 — Ornith 1.5 9B CPU Edition | OBLITERATUS/Ornith-1.5-9B-OBLITERATED | Q4_K_M | CPU | llama.cpp b10603 | Windows x64 | No | [Download](https://github.com/TeksEdge/ThumbLLM/releases/tag/Release-1-Ornith-1.5-9B-CPU) | [View Recipe](recipes/Ornith-1.5-9B-OBLITERATED-Q4_K_M-CPU-Win-x64/README.md) |
+| Edition | Model | Quantization | Backend | Runtime | Platform | Download | Recipe |
+|---|---|---|---|---|---|---|---|
+| ThumbLLM 0.1.0 — Qwen3.5 4B CPU Edition | unsloth/Qwen3.5-4B-MTP-GGUF | Q4_K_M | CPU | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases/tag/Qwen3.5-4B-CPU-v0.1.0) | [View Recipe](recipes/Qwen3.5-4-MTP-Q4_K_M-CPU-Win-x64/README.md) |
+| ThumbLLM 0.1.0 — Ornith 1.5 9B CPU Edition | OBLITERATUS/Ornith-1.5-9B-OBLITERATED | Q4_K_M | CPU | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases/tag/Release-1-Ornith-1.5-9B-CPU) | [View Recipe](recipes/Ornith-1.5-9B-OBLITERATED-Q4_K_M-CPU-Win-x64/README.md) |
 
-> **Windows SmartScreen:** This early ThumbLLM release is currently unsigned, so Windows may display **"Windows protected your PC"** and **"Unknown publisher."** Download ThumbLLM only from this official GitHub repository and verify the supplied SHA-256 checksum before selecting **Run anyway**.
+>   ⚠️  **Windows SmartScreen:** ThumbLLM releases are currently unsigned, so Windows may display **"Windows protected your PC"** and **"Unknown publisher."** Download ThumbLLM only from this official GitHub repository and verify the supplied SHA-256 checksum before running the application.
 
 ---
 
@@ -65,7 +68,7 @@ Features include:
 * context management
 * runtime information
 * automatic model detection
-* automatic model download
+* automatic and resumable model download
 * model verification
 
 For someone who simply wants to use the model, this may be all they need.
@@ -102,7 +105,27 @@ That means local applications, agents, coding tools, scripts, RAG systems, and o
 
 # Why ThumbLLM?
 
-ThumbLLM takes an simple approach. **Test one configuration, find what works, and package the recipe with the application.** The user shouldn't have to rediscover the settings. ThumbLLM is therefore **not intended to be another general-purpose model manager**. A model manager gives you models and configuration options. ThumbLLM gives you a configuration that has already been tested.
+ThumbLLM takes a simple approach:
+
+**Test one configuration, find what works, and package the recipe with the application.**
+
+The user shouldn't have to rediscover the settings.
+
+ThumbLLM is therefore **not intended to be another general-purpose model manager**.
+
+A model manager gives you models and configuration options.
+
+**ThumbLLM gives you a configuration that has already been tested.**
+
+Each ThumbLLM edition is built around:
+
+* one model
+* one quantization
+* one runtime
+* one target platform
+* one tested inference configuration
+
+The goal is to make running a local model feel more like launching an application and less like assembling an inference stack.
 
 ---
 
@@ -120,10 +143,10 @@ ThumbLLM takes an simple approach. **Test one configuration, find what works, an
 
 # What Can You Do With It?
 
-The current ThumbLLM release can be used for:
+ThumbLLM editions can be used for:
 
 * private local chat
-* build web pages and documents
+* building web pages and documents
 * writing and brainstorming
 * document summarization
 * information extraction
@@ -133,9 +156,33 @@ The current ThumbLLM release can be used for:
 * experimentation with local AI
 * applications that support OpenAI-compatible APIs
 
-Because the model exposes an API, it can function as more than a chatbot.
+Because the model exposes an API, ThumbLLM can function as more than a chatbot.
 
 It can become a local software component.
+
+---
+
+# Recipes
+
+Every ThumbLLM edition has a corresponding recipe documenting the model and inference configuration used to build it.
+
+Recipes are stored in the [`recipes`](recipes/) directory.
+
+The recipe records details such as:
+
+* model and GGUF file
+* quantization
+* llama.cpp build
+* platform and architecture
+* inference backend
+* context size
+* thread configuration
+* batch configuration
+* KV cache configuration
+* tested hardware
+* observed performance
+
+This makes each ThumbLLM edition reproducible rather than mysterious.
 
 ---
 
