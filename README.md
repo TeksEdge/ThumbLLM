@@ -46,7 +46,7 @@ If the required GGUF model is not already present, ThumbLLM can download and ver
 
 | Edition | Model | Quantization | Backend | Runtime | Platform | Download | Recipe |
 |---|---|---|---|---|---|---|---|
-| ThumbLLM 0.1.0 — Qwen3.5 4B CPU Edition | unsloth/Qwen3.5-4B-MTP-GGUF | Q4_K_M | CPU | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases/tag/Qwen3.5-4B-CPU-v0.1.0) | [View Recipe](recipes/Qwen3.5-4-MTP-Q4_K_M-CPU-Win-x64/README.md) |
+| ThumbLLM 0.1.0 — Qwen3.5 4B CPU Edition | unsloth/Qwen3.5-4B-MTP-GGUF | Q4_K_M | CPU | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases/tag/thumbllm-qwen3.5-4b-mtp-q4_k_m-cpu-win-x64-v0.1.0) | [View Recipe](recipes/Qwen3.5-4-MTP-Q4_K_M-CPU-Win-x64/README.md) |
 | ThumbLLM 0.1.0 — Ornith 1.5 9B CPU Edition | OBLITERATUS/Ornith-1.5-9B-OBLITERATED | Q4_K_M | CPU | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases/tag/Release-1-Ornith-1.5-9B-CPU) | [View Recipe](recipes/Ornith-1.5-9B-OBLITERATED-Q4_K_M-CPU-Win-x64/README.md) |
 
 >   ⚠️  **Windows SmartScreen:** ThumbLLM releases are currently unsigned, so Windows may display **"Windows protected your PC"** and **"Unknown publisher."** Download ThumbLLM only from this official GitHub repository and verify the supplied SHA-256 checksum before running the application.
