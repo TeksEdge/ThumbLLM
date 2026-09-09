@@ -41,14 +41,14 @@ Model
 If the required GGUF model is not already present, ThumbLLM can download and verify it automatically. Once downloaded, inference runs locally on your computer without requiring a cloud AI service.
 
 ---
-
 ## Releases
 
-| Edition                                      | Model                                 | Quantization | Backend | Runtime          | Platform    | Download                                                                                                        | Recipe                                                                        |
-| -------------------------------------------- | ------------------------------------- | ------------ | ------- | ---------------- | ----------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| **ThumbLLM 0.1.0 — MiniCPM5 2B CPU Edition** | openbmb/MiniCPM5-2B-GGUF              | Q4_K_M       | CPU     | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases)  | [View Recipe](recipes/MiniCPM5-2B-Q4_K_M-CPU-Win-x64/README.md)               |
-| ThumbLLM 0.1.0 — Qwen3.5 4B CPU Edition      | unsloth/Qwen3.5-4B-MTP-GGUF           | Q4_K_M       | CPU     | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases) | [View Recipe](recipes/Qwen3.5-4-MTP-Q4_K_M-CPU-Win-x64/README.md)             |
-| ThumbLLM 0.1.0 — Ornith 1.5 9B CPU Edition   | OBLITERATUS/Ornith-1.5-9B-OBLITERATED | Q4_K_M       | CPU     | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases) | [View Recipe](recipes/Ornith-1.5-9B-OBLITERATED-Q4_K_M-CPU-Win-x64/README.md) |
+| Edition                                         | Model                                  | Quantization | Backend | Runtime          | Platform    | Download                                                                 | Recipe                                                                        |
+| ----------------------------------------------- | -------------------------------------- | ------------ | ------- | ---------------- | ----------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| **ThumbLLM 0.1.0 — NeoHorse 1 9B CPU Edition**  | TokenRhythm/NeoHorse-1-9B-GGUF         | Q4_K_M       | CPU     | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases)                | [View Recipe](recipes/NeoHorse-1-9B-Q4_K_M-CPU-Win-x64/README.md)             |
+| ThumbLLM 0.1.0 — MiniCPM5 2B CPU Edition        | openbmb/MiniCPM5-2B-GGUF               | Q4_K_M       | CPU     | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases)                | [View Recipe](recipes/MiniCPM5-2B-Q4_K_M-CPU-Win-x64/README.md)               |
+| ThumbLLM 0.1.0 — Qwen3.5 4B CPU Edition         | unsloth/Qwen3.5-4B-MTP-GGUF            | Q4_K_M       | CPU     | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases)                | [View Recipe](recipes/Qwen3.5-4-MTP-Q4_K_M-CPU-Win-x64/README.md)             |
+| ThumbLLM 0.1.0 — Ornith 1.5 9B CPU Edition      | OBLITERATUS/Ornith-1.5-9B-OBLITERATED | Q4_K_M       | CPU     | llama.cpp b10603 | Windows x64 | [Download](https://github.com/TeksEdge/ThumbLLM/releases)                | [View Recipe](recipes/Ornith-1.5-9B-OBLITERATED-Q4_K_M-CPU-Win-x64/README.md) |
 
 > ⚠️ **Windows SmartScreen:** ThumbLLM releases are currently unsigned, so Windows may display "Windows protected your PC" and "Unknown publisher." Download ThumbLLM only from this official GitHub repository and verify the supplied SHA-256 checksum before running the application.
 
